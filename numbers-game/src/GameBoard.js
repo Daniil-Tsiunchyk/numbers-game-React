@@ -72,6 +72,18 @@ function GameBoard() {
 
     return (
         <div>
+            <div className="rules-container">
+                <h2>Rules</h2>
+                <ul>
+                    <li>Start with a random number between 10 and 30.</li>
+                    <li>On your turn, choose to subtract 1, 2, or 3 from the current number.</li>
+                    <li>The bot will then make its move.</li>
+                    <li>The player and bot take turns subtracting from the current number.</li>
+                    <li>The first one to reach 0 wins the round.</li>
+                    <li>Player and bot scores are updated accordingly.</li>
+                    <li>Click "Submit" to make your move.</li>
+                </ul>
+            </div>
             <div className="container">
                 <h1>Game of Numbers</h1>
                 <div id="scores">
